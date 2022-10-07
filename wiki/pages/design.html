@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>design</title>
+    <link type="text/css" rel="stylesheet" href="../../static/css/font.css" charset="UTF-8"/>
+    <link type="text/css" rel="stylesheet" href="../../static/css/footer.css" charset="UTF-8"/>
+    <link type="text/css" rel="stylesheet" href="../../static/css/pagination.css" charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="../../static/css/navigation.css" charset="UTF-8"/>
+    <script type="text/javascript" src="../../static/js/main.js"></script>
+    <style type="text/css">
+        .sectionRight img {
+            transform: scale(0.8);
+        }
+    </style>
+</head>
+
+<body>
+<!-- navigation_part -->
+<div id="cover" class="cover"></div>
+<div id="nav" class="nav"></div> 
+<div id="navbox" class="navbox">
+    <ul id="navul">
+        <li class="naval nav_firstclass" id="project" onmouseenter="show(this.id,true);"onmouseleave="show('project',false)">Project</li>
+        <li class="naval nav_firstclass" id="method" onmouseenter="show('method',true)" onmouseleave="show('method',false)"> Method</li>
+        <li class="naval nav_firstclass" id="result" onmouseenter="show('result',true)" onmouseleave="show('result',false)">Result</li>
+        <li class="naval nav_firstclass" id="safety" onmouseenter="show('safety',true)" onmouseleave="show('safety',false)">Safety</li>
+        <li class="naval nav_firstclass" id="team" onmouseenter="show('team',true)" onmouseleave="show('team',false)"> Team</li>
+        <li class="naval nav_firstclass" id="data" onmouseenter="show('data',true)" onmouseleave="show('data',false)">Data and Records</li>
+    </ul>
+    <div id="projectTag" class="Tag">
+        <li><a href=".background.html">Background</a></li>
+        <li><a href=".design.html">Design</a></li>
+        <li><a href="./description.html">Description</a></li>
+    </div>
+    <div id="methodTag" class="Tag">
+        <li><a href="./method_dry_lab.html">Dry Lab</a></li>
+        <li><a href="./method_wet_lab.html">Wet Lab</a></li>
+    </div>
+    <div id="resultTag" class="Tag">
+        <li><a href="./summary.html">Summary</a></li>
+        <li><a href="./result_dry_lab.html">Dry Lab</a></li>
+        <li><a href="./result_wet_lab.html">Wet Lab</a></li>
+    </div>
+    <div id="safetyTag" class="Tag">
+        <li><a href="./safety.html">Safety</a></li>
+    </div>
+    <div id="teamTag" class="Tag">
+        <li><a href="./members.html">Members</a></li>
+    </div>
+    <div id="dataTag" class="Tag">
+        <li><a href="./experiment_records.html">Experiment Records</a></li>
+        <li><a href="./data_and_computing_codes.html">Data and Computing Codes</a></li>
+        <li><a href="./data_accessibility_statements.html">Data Accessibility Statements</a></li>
+    </div>
+</div>
+<!-- main_part -->
+<div class="main">
+    <!-- Pagination_header -->
+    <header>
+        <img src="../../static/imgs/DESIGN.png" alt="图片加载失败">
+        <div class="headerBody"><img src="../../static/imgs/cat.png" id="cat" alt="图片加载失败"></div>
+    </header>
+    <!-- Pagination_main -->
+    <section>
+        <div class="sectionBody">
+            <div class="sectionLeft" id="leftDNA" style="background-image: url(../../static/imgs/kuang_mid.png);">
+                <img src="../../static/imgs/DNA.png" id="dnaImg" alt="图片丢失">
+                <div class="" id="leftTitle">
+                    <!-- 左侧标题 -->
+                    <p id="title1" class="sidetitle">OVERVIEW</p><br><br>
+                    <p id="title2" class="sidetitle" >CasΦ NUCLEASE</p><br>
+                    <p id="title3" class="sidetitle" style="white-space: nowrap;">SITE-DIRECTED MUTAGENESIS</p><br>
+                    <p id="title4" class="sidetitle" style="white-space: nowrap;">MOLECULAR DYNAMIC SIMULATION</p><br>
+                    <p id="title5" class="sidetitle" style="white-space: nowrap;">crRNA SECONDARY STRUCTURE</p><br>
+                    <p id="title6" class="sidetitle" style="white-space: nowrap;"></p><br>
+                    <p id="title7" class="sidetitle" style="white-space: nowrap;"></p><br>
+                    <p id="title8" class="sidetitle" style="white-space: nowrap;"></p><br>
+                </div>
+            </div>
+            <div class="sectionRight" id="content">
+                <h1>Design</h1>
+
+
+<!-- 正文 -->
+<h2>  OVERVIEW</h2>
+<div class="paragraph">
+&nbsp;&nbsp;&nbsp;&nbsp;Recognizing mismatch targets by Cas nuclease is crucial for both in vivo genome editing and in vitro nucleic acid detection. The capability of Cas to recognize mismatched targets is improved when compared to Cas12a. Recent research has demonstrated that adding a hairpin secondary structure to the spacer region of crRNA can decrease Cas nuclease's affinity for the crRNA/mismatched target complex, increasing the specificity of the CRISPR-Cas system's target identification [2]. Here, our team will further explore the mutations in helix α7 of CasΦ nuclease and combine them with hairpin-structured crRNA to create a CRISPR-Cas system for nucleic acid detection that is more sensitive and specific.
+</div>
+<h2> CasΦ NUCLEASE</h2>
+<div class="paragraph">
+&nbsp;&nbsp;&nbsp;&nbsp;CRISPR-CasΦ, a small RNA-guided enzyme found uniquely in bacteriophages, achieves programmable DNA cutting as well as genome editing[1]. The protein size of CasΦ is 70 to 80 kDa, about half the size of Cas9 and Cas12a, but maintains the ability to unwind and cut dsDNA. Cryo-EM-based structural studies indicate that CasΦ forms a compact structure, in which protein and crRNA are interwoven to realize RNA-guided dsDNA unwinding and cleavage. CasΦ also exhibits target-activated trans-cleavage ssDNA activity, which is an activity associated Cas12 nucleases family.
+</div>
+
+<h2>    SITE-DIRECTED MUTAGENESIS </h2>
+<div class="paragraph">
+&nbsp;&nbsp;&nbsp;&nbsp;The results from Jennifer Doudna’s group showed that the helix α7 in CasΦ protein has a significant effect on enzyme activity. Based on the above, we modified the protein by point mutation. The detailed mutation content is shown in Table 1. Mut-1 and Mut-2 are designed by Doudna’s group and used as positive controls. From Mut-3 to Mut-6 are the mutants designed by our team. All wild-type and mutants are directly genes synthesized by GenScript Biotech Corporation (Nanjing, China).
+</div>
+<div class="brat">Table 1. Mutation sites of different mutants</div>
+
+<img src="../../static/imgs/design/Picture1.png" alt="">
+<h2>    MOLECULAR DYNAMIC SIMULATION </h2>
+<div class="paragraph">
+&nbsp;&nbsp;&nbsp;&nbsp;We used the optimized system to carry out molecular dynamics simulation for the above mutants, and the simulation time was 400 ns. It is calculated based on a simulated track using the program provided by GROMAC 5.2.11 software. The GROMOS96 force field is selected, and the SPC model is adopted for water molecules. The Lenard Jones function is used to calculate the van der Waals force. The particle-mesh Ewald method is used to calculate the electrostatic interaction. The Verlet leapfrog algorithm is used to solve the equation of motion at each step, and the coordinates of each atom at the new time are obtained through integration. The LINCS algorithm is used to fix the relative distance between all bonding atoms to reduce the computational complexity. According to the GMX RMS module in the Gromacs package, we calculate the RMSD of different components in the simulation system
+</div>
+
+<h2>    crRNA SECONDARY STRUCTURE </h2>
+<div class="paragraph"> 
+&nbsp;&nbsp;&nbsp;&nbsp;As reported by Gersbach et al. a hairpin secondary structure in the spacer region of crRNA can increase the CRISPR-Cas system specificity for target cleavage[2]. To verify whether this strategy is effective for the trans-cleavage activity of CasΦ, we introduced different lengths of hairpin structures into the crRNA of CasΦ (Table 3). 
+</div>
+
+<div class="brat">Table 3. The sequence of crRNAs with hairpin structures</div>
+<img src="../../static/imgs/design/Picture2.png" alt="">
+<div class="reference"> 
+    [1]Deltcheva, E., K. Chylinski, C.M. Sharma, et al., CRISPR RNA maturation by trans-encoded small RNA and host factor RNase III. Nature, 2011. 471(7340): p. 602-7.doi: 10.1038/nature09886. <br>
+    [2]Kocak, D.D., E.A. Josephs, V. Bhandarkar, et al., Increasing the specificity of CRISPR systems with engineered RNA secondary structures. Nat Biotechnol, 2019. 37(6): p. 657-666.doi: 10.1038/s41587-019-0095-1. 
+    
+    </div>
+
+
+                        
+
+
+            </div>
+        </div>
+    </section>
+</div>
+<!-- footer_part -->
+<footer class="footerbox">
+    <div class="thanksbox">
+        <div class="teamlogobox teamlogo"></div>
+        <div class="collabrationbox">
+            
+        </div>
+    </div>
+    <hr style="color:#ffffff">
+    <div class="contacttext">Contact us</div>
+    <ul class="logo">
+        <li class="logobox footer_li">
+            <a class="footer_a" href="mailto:cpuchina2022@163.com"><div class="logoall weibologo"></div></a>
+            <a class="footer_a" href="mailto:cpuchina2022@163.com" style="margin-left: -120px;;">cpuchina2022@163.com</a>
+        </li>
+        <li class="logobox footer_li">
+            <a class="footer_a" href="https://space.bilibili.com/1453586595"><div class="logoall bilibililogo"></div></a>
+            <a class="footer_a" href="https://space.bilibili.com/1453586595" style="margin-left: -90px;">2022CPU_CHINA</a>
+        </li>
+        <li class="logobox footer_li">
+            <a class="footer_a" href="https://gitlab.igem.org/2022/cpu-china/"><div class="logoall githublogo"></div></a>
+            <a class="footer_a" href="https://gitlab.igem.org/2022/cpu-china/" style="margin-left: -100px;font-size: 18px;">Team&nbsp;wiki's&nbsp;repository</a>
+        </li>
+        <li class="logobox footer_li" style="margin-left: 175px;">
+            <a class="footer_a" href="https://international.cpu.edu.cn/"><div class="logoall schoollogo"></div></a>
+            <a class="footer_a" href="https://international.cpu.edu.cn/" style="margin-left: -110px;font-size:17px">International&nbsp;Communication</a>
+        </li>
+    </ul>
+</footer>
+</body>
+
+<script type="text/javascript">
+    /* sidebar_js */
+    function setColor() {
+        let title1 = document.getElementById("title1")
+        let title2 = document.getElementById("title2")
+        let title3 = document.getElementById("title3")
+        let title4 = document.getElementById("title4")
+        let title5 = document.getElementById("title5")
+        let title6 = document.getElementById("title6")
+        let title7 = document.getElementById("title7")
+        let title8 = document.getElementById("title8")
+        title1.style.color = "#38393a"
+        title2.style.color = "#38393a"
+        title3.style.color = "#38393a"
+        title4.style.color = "#38393a"
+        title5.style.color = "#38393a"
+        title6.style.color = "#38393a"
+        title7.style.color = "#38393a"
+        title8.style.color = "#38393a"
+    }
+
+    document.addEventListener('scroll', function () {
+        let dnaImg = document.getElementById("dnaImg")
+        let leftTitle = document.getElementById("leftTitle")
+        let cat = document.getElementById("cat")
+        let content = document.getElementById("content")
+        let height = content.clientHeight
+        let topLength = content.getBoundingClientRect().top;
+        let flag = -topLength / height
+        if (flag < 0.26) {
+            setColor()
+            let title1 = document.getElementById("title1")
+            title1.style.color = "#115596"
+        }
+        if (flag > 0.26 && flag <= 0.46) {
+            setColor()
+            let title2 = document.getElementById("title2")
+            title2.style.color = "#115596"
+        }
+        if (flag > 0.46 && flag <= 0.69) {
+            setColor()
+            let title3 = document.getElementById("title3")
+            title3.style.color = "#115596"
+        }
+        if (flag > 0.69) {
+            setColor()
+            let title4 = document.getElementById("title4")
+            title4.style.color = "#115596"
+        }
+        console.log(-topLength / height)
+        if (window.pageYOffset > document.body.style.fontSize.replace("px", "") * 10) {
+            dnaImg.style.display = "block"
+            leftTitle.style.display = "block"
+            cat.style.display = "none"
+        } else {
+            dnaImg.style.display = "none"
+            leftTitle.style.display = "none"
+            cat.style.display = "block"
+        }
+        console.log(window.pageYOffset)
+        let font = document.body.style.fontSize;
+        console.log("fontSize" + font)
+        console.log(document.body.style.fontSize.replace("px", "") * 7)
+    })
+</script>
+<script>
+     // navigation_js
+     var nav = document.getElementById("nav");
+    var navbox = document.getElementById("navbox");
+    var navul = document.getElementById("navul");
+    var cover = document.getElementById("cover");
+    nav.onmouseenter = function () {
+        navbox.style.display = "block"
+        cover.style.display = "block"
+    }
+    navbox.onmouseleave = function () {
+        navbox.style.display = "none"
+        cover.style.display = "none"
+    }
+</script>
+</html>
