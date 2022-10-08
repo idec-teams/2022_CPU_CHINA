@@ -107,52 +107,6 @@
 <p class="paragraph">During the simulation, the displacement range of each atom is small, and it is basically stable. In the Mut-3 and Mut-5 protein groups, the amino acids at 202-218 shifted by 1 nm, indicating that the intramolecular force has changed. The positive control group Mut-1 and Mut-2 basically maintained the displacement below 0.5 nm, and the atomic vibration amplitude was small, indicating that the system was stable. (<strong>Figure</strong> <strong>7</strong>)</p>
 <p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps9.jpg" referrerpolicy="no-referrer" alt="img"></p>
 <p>                                 <strong>Figure</strong> <strong>7.</strong> Average RMSF value for wild-type CasΦ and mutants.</p>
-<h2 id='enzyme-kinetic-analysis'>Enzyme kinetic analysis</h2>
-<p class="paragraph">In order to assess the trans cleavage activity of Cas12j mutants, wet experiments were performed using different mutants activated by target DNA for trans cleavage kinetics assays. Corresponding to the wet experiments, our dry experiments were performed by enzyme kinetic modeling to further evaluate the reaction rates of two mutants Mut-1 and Mut-4 with similar good cleavage activities.</p>
-<p class="paragraph">Based on the literature [1], we assumed that the trans cleavage process of Cas12j protein conforms to the Michaelis–Menten kinetics for enzyme kinetics.We treated the activated Cas12j-crRNA-activator complex as an enzyme and quantified the kinetic parameters for the wild type (WT) and two mutants (Mut-1,Mut-4).</p>
-<h3 id='reaction-mechanism'>Reaction mechanism</h3>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps10.png" referrerpolicy="no-referrer" alt="img"></p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps11.png" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">Simplified as the following reaction equation：</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps12.png" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">Where E is the target-activated Cas12j–crRNA complex, S is the uncleaved reporter, C is the reaction intermediate (enzyme–substrate reporter complex), P is the cleaved reporter molecules, kf and kr are the forward and reverse rate constant for the reaction between E and S, and kcat is the catalytic turnover rate of the enzyme.</p>
-<h2 id='the-reaction-rate-equation'>The reaction rate equation</h2>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps14.png" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">Where V is the rate of production of the cleaved reporters,Vmax is the highest measured reaction velocity for the experiment,KM is the Michaelis constant, [S] is the concentration of uncleared substrate at equilibrium.</p>
-<h3 id='data-fitting'>Data Fitting</h3>
-<h4 id='fluorescence-value-unit-conversion'>Fluorescence value unit conversion</h4>
-<p class="paragraph">To achieve comparability of data, we converted the fluorescence units (AU) measured to concentration units (nM) using the formula in the literature [2] for the calibration of fluorescence values to reporter gene concentrations.</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps15.png" referrerpolicy="no-referrer" alt="img"></p>
-<h4 id='fluorescence-signal-fitting'>Fluorescence signal fitting</h4>
-<p class="paragraph">Fitting the wet experimental data after concentration unit conversion, we obtained the changes in cleaved reporter concentrations for the three Cas12j over 60 min.</p>
-<p class="paragraph">① WT</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps16.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">② Mut-1</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps17.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">③ Mut-4</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps18.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<h4 id='fitting-of-enzyme-kinetic-equations'>Fitting of enzyme kinetic equations</h4>
-<p class="paragraph">According to the above fitted trend of the concentration of the cleaved reporter substrate, the production rate of the cleaved reporter substrate at the beginning of the reaction is basically linear. Combining with previous literature, we selected the data of the first two cycles (about 4 min) and the first three cycles (about 6 min) for the calculation of the initial rate. And then we fitted the initial velocities of the three Cas12j at the ssDNA reporter substrate concentration gradient by the Michaelis–Menten kinetics. The following are the fitting results.</p>
-<p class="paragraph">①WT for the first two cycles (WT-2)</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps19.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">②WT for the first three cycles (WT-3)</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps20.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">③Mut-1 for the first two cycles (Mut-1-2)</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps21.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">  ④Mut-1 for the first three cycles (Mut-1-3)</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps23.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">⑤Mut-4 for the first two cycles (Mut-4-2)</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps24.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">⑥Mut-4 for the first three cycles (Mut-4-3)</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps25.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">The results of fitting the above six sets of data are summarized as follows.<img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps26.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<h3 id='data-analysis'>Data analysis</h3>
-<h4 id='comparison-of-trans-cleavage-activity'>Comparison of trans-cleavage activity</h4>
-<p class="paragraph">From the catalytic efficiency (kcat/KM), we can obtain that both mutants have higher catalytic efficiency than the wild type, with Mut-1 having higher trans cleavage activity than Mut-4. However, since the Mut-4 fit did not converge, we can only speculate to obtain the latter conclusion for the mutant comparison.</p>
-<h4 id='comparison-with-literature-data-of-lbcas12a'>Comparison with literature data of LbCas12a</h4>
-<p class="paragraph">According to the literature [3], it is suggested by structural observations that Cas12a and Cas12j may use a similar mechanism for non-specific cleavage. Combined with the fact that Cas12j is smaller in volume than Cas12a. we hypothesized that in terms of trans cleavage activity: Cas12j ≤ Cas12a. Since there are few studies on Cas12j enzyme kinetics, we selected trans-cleavage activity data of Lbcas12a that have been more studied (from literature [1]) to compare with our data.</p>
-<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps27.jpg" referrerpolicy="no-referrer" alt="img"></p>
-<p class="paragraph">In comparison with the above data, the results showed that our Cas12j catalytic activity was higher than that of LbCas12a by kcat/KM values. And the kcat of our Cas12j was 2-3 orders of magnitude higher than that of LbCas12a (excluding Mut-4 mutants that were not fitted to convergence), while the KM values were 2-3 orders of magnitude lower than that of LbCas12a. This contradictory result with theory may be due to the influence of CRISPR enzyme type, crRNA sequence and target sequence. Further determination of the kinetic measurements of various target/guide RNAs would be more appropriate for comparison later.</p>
 <h4 id='reference'>Reference：</h4>
 <p class="reference">[1]Huyke, Diego A et al. “Enzyme Kinetics and Detector Sensitivity Determine Limits of Detection of Amplification-Free CRISPR-Cas12 and CRISPR-Cas13 Diagnostics.” <strong>Analytical chemistry</strong> vol. 94,27 (2022): 9826-9834. doi:10.1021/acs.analchem.2c01670</p>
 <p class="reference">[2] Ramachandran, Ashwin, and Juan G Santiago. “CRISPR Enzyme Kinetics for Molecular Diagnostics.” <strong>Analytical chemistry</strong> vol. 93,20 (2021): 7456-7464. doi:10.1021/acs.analchem.1c00525</p>
