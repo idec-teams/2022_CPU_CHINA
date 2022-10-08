@@ -72,15 +72,19 @@ header {
 }
 
 .content > section > img {
-    width: 80%;
-    height: 80%;
+    box-shadow: 10px 10px 10px #616161;
+    width: 100%;
+    height: 100%;
 }
 
 .content > section > span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #115596;
+    text-shadow: 2px #115596;
     position: absolute;
     left: 20%;
     top: 100%;
-    font-size: 0.2rem;
+    font-size: 0.25rem;
 }
 
 .content > section > b {
@@ -127,9 +131,7 @@ header {
     top: 0.7rem;
 }
 
-.ImgHover {
 
-}
 
 .ImgHover:hover {
     opacity: 0.6;
@@ -144,6 +146,7 @@ header {
     padding: 2%;
     width: 1.5rem;
     height: 1.5rem;
+    box-shadow: 2px;
 }
 
 .sectionR {
@@ -156,7 +159,7 @@ header {
 }
 
 .sectionLeftCardImg:hover {
-    background: #003333;
+    background: #e4cf0f;
     -webkit-box-shadow: #ccc 0px 10px 10px;
     -moz-box-shadow: #ccc 0px 10px 10px;
     box-shadow: #ccc 0px 10px 10px;
@@ -209,8 +212,8 @@ header {
     font-family: SR;
     position: absolute;
     left: 5%;
-    top: 540px;
-    font-size: 0.2rem;
+    top: 560px;
+    font-size: 0.5rem;
 }
 
 .sectionRightDetail > div {
@@ -221,6 +224,7 @@ header {
 }
 
 .sectionRightDetail > div > img {
+    box-shadow: 10px 10px 10px #b4d7f0;
     position: absolute;
     top: -880px;
     left: 60px;
@@ -244,12 +248,11 @@ header {
     left: 40%;
 }
 
-.sectionRight:hover {
 
-}
 
 .SRD {
-    font-family: SSPB;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: SSPB; */
 }
 
 .sectionRightTitle {
