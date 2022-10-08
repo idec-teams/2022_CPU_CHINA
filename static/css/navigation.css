@@ -1,12 +1,14 @@
 /* navigation_css */
 .navigation_a {
     font-family: SOURCESANSPRO-REGULAR;
-    font-size:0.8rem;
+    /* font-size:0.8rem; */
+    font-size:13px;
     text-decoration: none;
     list-style: none;
     cursor: pointer;
     color: #ffffff;
 }
+
 .backtoindex{
     top: -85px;
     left: -80px;
