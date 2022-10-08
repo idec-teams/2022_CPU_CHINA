@@ -60,44 +60,44 @@ section {
 }
 
 .sectionBody {
-    margin-top: 8rem;
+    margin-top: 128px;
     display: flex;
     /*flex-direction: row;*/
 }
 
 .sectionLeft {
     /* box-shadow: 0.05rem 0.1rem 0.15rem 0.2rem #bebebe inset; */
-    background-image: url(../imgs/sectionleftkuang.png);
+    /* background-image: url(../imgs/sectionleftkuang.png); */
     background-repeat: no-repeat;
-    margin-left: 1.5rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-right: 1.5rem;
+    margin-left: 25px;
+    padding-top: 150px;
+    /* padding-bottom: 3rem; */
+    /* padding-right: 1rem; */
     position: fixed;
     display: flex;
-    top: 10rem;
-    font-size: 0.5rem;
-    width: 30vw;
-    height: 100vw;
+    top: 200px;
+    font-size: 8px;
+    width: 500px;
+    height: 500px;
 }
 
 .sectionLeft img {
     margin: 0;
-    width: 5rem;
-    height: 10rem;
+    width: 80px;
+    height: 160px;
     display: none;
 }
 
 .sectionLeft div {
     display: none;
-    font-size: 0.1rem;
+    font-size: 1.6px;
     
 }
 
 .sectionRight {
     box-shadow: 0.05rem 0.1rem 0.15rem 0.2rem #176dbd inset;
     font-size: 0.2rem;
-    margin-left: 20rem;
+    margin-left: 30rem;
     margin-right: 10rem;
     margin-bottom: 0.1rem;
     padding: 1rem 3rem;
@@ -153,7 +153,8 @@ section {
 
 
 .sidetitle{
-    width:8rem;
+    /* margin-top:20px; */
+    width:220px;
     font-family: Rubik-Black;
     font-size: 25px;
     overflow:hidden;
