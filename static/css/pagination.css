@@ -77,8 +77,8 @@ section {
     display: flex;
     top: 10rem;
     font-size: 0.5rem;
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 100vw;
 }
 
 .sectionLeft img {
