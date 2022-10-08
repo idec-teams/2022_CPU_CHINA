@@ -28,13 +28,21 @@
         max-width: 100%
     }
     .toptitle {
-        height: 500px;
+        display:flex; 
+        /* align-item:column; */
+        height: 1000px;
         text-align: center;
         color:#ffffff;
         font-family: Rubik-Black;
-        font-size: 65px;
+        font-size: 100px;
         background-color: #115596;
         padding:100px 100px;
+        text-shadow: 4px;
+    }
+    .toptitle_in {
+        justify-content:center;  /* 定义主轴对齐方式 */
+        display:flex; 
+        flex-direction:column /* 改变主轴方向 */
     }
 
     .second {
@@ -63,6 +71,7 @@
 
 <body>
     <!-- navigation_part -->
+    <a href="./index.html" class="backtoindex"></div></a>
     <div id="cover" class="cover"></div>
     <div id="nav" class="nav"></div> 
     <div id="navbox" class="navbox">
@@ -102,7 +111,10 @@
     </div>
 
     <div class="toptitle">
+        <div class="toptitle_in">
             Improving the Sensitivity and Specificity of CRISPR-Cas System by Directed Evolution and Rational Design
+        </div>
+            
     </div>
     <div class="container">
         <div>
