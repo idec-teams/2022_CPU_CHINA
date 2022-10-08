@@ -7,6 +7,7 @@
     <title>members</title>
     <link rel="stylesheet" href="../../static/css/main.css" type="text/css">
     <link rel="stylesheet" href="../../static/css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../../static/css/navigation.css" type="text/css">
     <script type="text/javascript" src="../../static/js/html5.js"></script>
     <script type="text/javascript" src="../../static/js/main.js"></script>
     <style>
@@ -27,7 +28,7 @@
             list-style: none;
         }
 
-        li {
+        /* li {
            margin-top: 0.1rem;
             padding-top: 0.1rem;
             background-color: white;
@@ -37,14 +38,14 @@
             border-radius: 0.2rem;
                 margin-bottom: 0.1rem;
                 display: list-item;
-        }
+        } */
 
-        a {
+        /* a {
             color: black;
             text-decoration: none;
             text-align: center;
         }
-
+ */
         .miao {
            display: none
         }
@@ -54,81 +55,46 @@
     </style>
 </head>
 <body>
-<div class="cover" id="cover">
-</div>
-
-<div class="nav" id="nav">
-    <img src="../../static/imgs/cat_navigation.png" alt="">
-</div>
-<div class="navTable" id="navTable">
-    <div class="tableRight" id="navRight">
-        <ul id="navRightUl">
-            <li class="naval" id="project" onmouseenter="show(this.id,true);"
-                onmouseleave="show('project',false)">Project
-            </li>
-            <li class="naval" id="part" onmouseenter="show('part',true)" onmouseleave="show('part',false)"> Safety
-            </li>
-            <li class="naval" id="model" onmouseenter="show('model',true)" onmouseleave="show('model',false)">Model
-            </li>
-            <li class="naval" id="human" onmouseenter="show('human',true)" onmouseleave="show('human',false)">Human
-                Practices
-            </li>
-            <li class="naval" id="team" onmouseenter="show('team',true)" onmouseleave="show('team',false)"> Team
-            </li>
-            <li class="naval" id="award" onmouseenter="show('award',true)" onmouseleave="show('award',false)">Award
-            </li>
-        </ul>
+<!-- navigation_part -->
+<a href="../../index.html" class="backtoindex"></div></a>
+<div id="cover" class="cover"></div>
+<div id="nav" class="nav"></div> 
+<div id="navbox" class="navbox">
+    <ul id="navul">
+        <li class="naval nav_firstclass" id="project" onmouseenter="show(this.id,true);"onmouseleave="show('project',false)">Project</li>
+        <li class="naval nav_firstclass" id="method" onmouseenter="show('method',true)" onmouseleave="show('method',false)"> Method</li>
+        <li class="naval nav_firstclass" id="result" onmouseenter="show('result',true)" onmouseleave="show('result',false)">Result</li>
+        <li class="naval nav_firstclass" id="safety" onmouseenter="show('safety',true)" onmouseleave="show('safety',false)">Safety</li>
+        <li class="naval nav_firstclass" id="team" onmouseenter="show('team',true)" onmouseleave="show('team',false)"> Team</li>
+        <li class="naval nav_firstclass" id="data" onmouseenter="show('data',true)" onmouseleave="show('data',false)">Data and Records</li>
+    </ul>
+    <div id="projectTag" class="Tag">
+        <li><a href="./background.html">Background</a></li>
+        <li><a href="./design.html">Design</a></li>
+        <li><a href="./description.html">Description</a></li>
     </div>
-    <div class="navLink">
-        <div id="projectTag" class="Tag">
-            <ul>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/ description">Description</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/proof- of-concept">Proof of Concept</a></li>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/ engineering">Engineering Success</a></li>
-                <li><a href="#">Parts</a></li>
-                <li><a href="#">Experiment</a></li>
-            </ul>
-        </div>
+    <div id="methodTag" class="Tag">
+        <li><a href="./method_dry_lab.html">Dry Lab</a></li>
+        <li><a href="./method_wet_lab.html">Wet Lab</a></li>
     </div>
-    <div class="navLink">
-        <div id="partTag" class="Tag">
-            <a href="#"></a>
-        </div>
+    <div id="resultTag" class="Tag">
+        <li><a href="./summary.html">Summary</a></li>
+        <li><a href="./result_dry_lab.html">Dry Lab</a></li>
+        <li><a href="./result_wet_lab.html">Wet Lab</a></li>
     </div>
-    <div class="navLink">
-        <div id="modelTag" class="Tag">
-            <a href="https://2022.igem.wiki/CPU_CHINA/model"></a>
-        </div>
+    <div id="safetyTag" class="Tag">
+        <li><a href="./safety.html">Safety</a></li>
     </div>
-    <div class="navLink">
-        <div id="humanTag" class="Tag">
-            <ul>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/ implementation">Proposed Implementation</a></li>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/human- practices">Integrated Human Practices</a></li>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/ communication">Education and Communication</a></li>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/ contribution">Contribution</a></li>
-            </ul>
-        </div>
+    <div id="teamTag" class="Tag">
+        <li><a href="./members.html">Members</a></li>
     </div>
-    <div class="navLink">
-        <div id="teamTag" class="Tag">
-            <ul>
-                <li><a href="#">Members</a></li>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/ attributions">Attributions</a></li>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/ partnership">Partnership</a></li>
-                <li><a href="https://2022.igem.wiki/CPU_CHINA/ collaborations">Collaborations</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="navLink">
-        <div id="awardTag" class="Tag">
-            <a href="#"></a>
-        </div>
+    <div id="dataTag" class="Tag">
+        <li><a href="./experiment_records.html">Experiment Records</a></li>
+        <li><a href="./data_accessibility_statements.html">Data Accessibility Statements</a></li>
     </div>
 </div>
 <header>
-    <img class="top" id="top" src="../../static/imgs/COLLABORATIONS.png" alt="图片迷路了">
+    <img class="top" id="top" src="../../static/imgs/MEMBERS.png" alt="图片迷路了">
     <img class="cat" id="cat" src="../../static/imgs/cat.png" alt="猫头迷路了">
 </header>
 <section style="background-color: white">
@@ -397,6 +363,9 @@
         </section>
     </section>
 </section>
+
+
+</body>
 <!-- footer_part -->
 <footer class="footerbox">
     <div class="thanksbox">
@@ -407,8 +376,9 @@
         <div class="contacttext">Contact us</div>
             <ul class="logo">
                 <li class="logobox footer_li">
-                    <a class="footer_a" href="mailto:cpuchina2022@163.com"><div class="logoall weibologo"></div></a>
-                    <a class="footer_a" href="mailto:cpuchina2022@163.com" style="margin-left: -120px;;">cpuchina2022@163.com</a>
+                    <a class="footer_a" href="mailto:cpuchina2022@163.com" ><div class="logoall weibologo"></div></a>
+                    <a class="footer_a" href="mailto:cpuchina2022@163.com" style="margin-left: -120px;width: 80px;
+                    height: 120px;">cpuchina2022@163.com</a>
                 </li>
                 <li class="logobox footer_li">
                     <a class="footer_a" href="https://space.bilibili.com/1453586595"><div class="logoall bilibililogo"></div></a>
@@ -426,8 +396,6 @@
     </div>
     
 </footer>
-
-</body>
 </html>
 <script>
     (function (doc, win) {
@@ -447,13 +415,13 @@
         win.addEventListener(resizeEvt, recalc, false);
         doc.addEventListener("DOMContentLoaded", recalc, false);
     })(document, window);
-    let cover = document.getElementById("cover")
+    //let cover = document.getElementById("cover")
     let dpr = window.devicePixelRatio || 1
-    let nav = document.getElementById("nav")
+    //let nav = document.getElementById("nav")
     let table = document.getElementById("navRight")
     let navTable = document.getElementById("navTable")
 
-    if (dpr >= 2) {
+    /* if (dpr >= 2) {
         nav.onmouseleave = function () {
             cover.style.display = "none"
         }
@@ -473,7 +441,7 @@
                 navTable.style.display = "block"
             }
         })
-    }
+    } */
     document.addEventListener('scroll', function () {
         let cat = document.getElementById("cat")
         let top = document.getElementById("top")
@@ -503,10 +471,48 @@
     SRN.innerText = "PI"
     SR.innerText = "Yunlong Liu"
 
+</script>
 
+<script>
+    // navigation_js
+    var nav = document.getElementById("nav");
+    var navbox = document.getElementById("navbox");
+    var navul = document.getElementById("navul");
+    var cover = document.getElementById("cover");
+    nav.onmouseenter = function () {
+        navbox.style.display = "block"
+        cover.style.display = "block"
+    }
+    navbox.onmouseleave = function () {
+        navbox.style.display = "none"
+        cover.style.display = "none"
+    }
 
+    function show(id, flag) {
+    console.log(id)
+    let elementById = document.getElementById(id);
+    let elementById1 = document.getElementById(id + "Tag");
+    resetColor()
+    elementById.style.backgroundColor = "#115596";
+    elementById.style.color = "#ffffff";
+    if (flag) {
+        setTagNone()
+        elementById1.style.display = "block"
+    }
+    }
 
+    function setTagNone() {
+    for (const elementsByClassNameElement of document.getElementsByClassName("Tag")) {
+        elementsByClassNameElement.style.display = "none"
+    }
+    }
 
-
-
+    function resetColor() {
+    let elementsByTagName = document.getElementsByClassName("naval");
+    console.log(elementsByTagName)
+    for (let i = 0; i < elementsByTagName.length; i++) {
+        elementsByTagName[i].style.backgroundColor = "#ffffff";
+        elementsByTagName[i].style.color = "#333333";
+    }
+    }
 </script>
