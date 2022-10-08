@@ -1,145 +1,102 @@
-/* navigation_css */
-.navigation_a {
+
+/* footer_css */
+.footer_a {
     font-family: SOURCESANSPRO-REGULAR;
-    /* font-size:0.8rem; */
-    font-size:13px;
+    font-size:0.8rem;
     text-decoration: none;
     list-style: none;
     cursor: pointer;
     color: #ffffff;
 }
 
-.backtoindex{
-    top: -85px;
-    left: -80px;
-    position: fixed;
-    z-index: 5;
-    height:480px;
-    width: 480px;
-    background-image: url(../imgs/backtoindex.png);
-    transform: scale(0.5);
-    background-repeat: no-repeat;
-}
-
-.nav {
-    height: 150px;
-    width: 130px;
-    top: 5px;
-    right: 120px;
-    position: fixed;
-    background-image: url(../imgs/cat_navigation.gif);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    transform: translate(50%, 50%);
-    z-index: 10;
-}
-
-.nav:hover {
-    cursor: pointer;
-}
-
-.navbox {
-    position: fixed;
-    /*width: 389px;*/
-    width: 800px;
-    height: 300px;
-    top: 1px;  /* 左上优先，导航在右边，应该固定右、上 */
-    right: 20px;
-    z-index: 15;
-    display: none;
-}
-
-.navbox li {
+.footer_li {
     list-style: none;
-    width: 240px;
-    height: 60px;
-    background-color: #ffffff;
-    border-radius: 66px;
-    margin: 25px auto;
-    text-align: center;
-    /* text-transform:uppercase; */
-    line-height: 57px;
-    font-size: 25px;
-    color: #333333;
-    font-weight: bolder;
-    float: none;
-    cursor: pointer;
-}
-/* .nav_firstclass{
-    text-transform:uppercase;
-} */
-.navbox li:hover {
-    font-size: 28px;
+    float: left;
 }
 
-.navbox li:first-child {
-    background-color: #115596;
-    color: #ffffff;
-}
-
-/* 导航栏遮罩 */
-.cover {
-    position: fixed;
-    top: 0;
-    left: 0;
+.footerbox {
+    box-shadow: #596168;
+    margin-top:200px;
+    height: 600px;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 9;
-    display: none;
-}
-
-
-.Tag li:first-child {
     background-color: #ffffff;
-    color: black;
+    border-radius: 50px 50px 1px 1px;
 }
 
-.Tag {
-    position: fixed;
-    z-index: 10;
-    top: -30px;
-    right:600px;
-    /* left: 1050px; */
-    width: 380px;
-    height: 60px;
-    border-radius: 33px;
-    margin: 25px auto;
-    text-align: center;
-    line-height: 57px;
-    font-size: 23px;
-    color: #333333;
+.thanksbox{
+    box-shadow: 0px 0px 50px  #0b0b0b;
+    position: relative;
+    text-align:center;
+    border-radius: 50px 50px 1px 1px;
+    background-color: #ffffff;
+    /* background-image: url(../imgs/footerthanks.png); */
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.contactbox {
+    height: 300px;
+    width: 100%;
+    background-color: #115596;
+}
+ 
+.thanksbox img { 
+    max-width: 100%;
+    height: 300px;
+    left:50%;
+    top:50%;
+}
+
+
+.contacttext {
     font-weight: bolder;
-    float: none;
-    cursor: pointer;
-    display: none;
-}
-
-.Tag li {
-    list-style: none;
-    width: 380px;
-    height: 60px;
-    border-radius: 33px;
-    background-color: #ffffff;
-    margin: 25px auto;
+    font-size: 30px;
+    color: #ffffff;
     text-align: center;
-    line-height: 57px;
-    font-size: 23px;
-    color: black;
-    /*font-weight: bolder;*/
-    float: none;
-    cursor: pointer;
-    z-index: 10;
+    padding-top: 40px;
 }
 
-.Tag li a {
-    text-decoration: none;
-    list-style: none;
-    cursor: pointer;
-    color: black;
+.logo {
+    text-align: center;
+    display: table;
+    height: 25px;
+    margin:60px auto;
 }
 
-.Tag li:hover {
-    font-size: 28px;
-    border: #176dbd;
+.logobox {
+    width: 80px;
+    margin-left: 160px;
+}
+
+.logoall {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: translate(-50%, -50%);
+    float: left;
+}
+
+.logoall:hover {
+    width: 90px;
+    height: 90px;
+}
+
+
+.weibologo {
+    background-image: url(../imgs/maillogo.png);
+}
+
+.bilibililogo {
+    background-image: url(../imgs/bilibililogo.png);
+}
+
+.githublogo {
+    background-image: url(../imgs/githublogo.png);
+}
+
+.schoollogo {
+    background-image: url(../imgs/schoollogo.png);
 }
