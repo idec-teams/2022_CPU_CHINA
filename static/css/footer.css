@@ -41,7 +41,8 @@
     background-color: #115596;
 }
  
-.thanksbox img {
+.thanksbox img { 
+    max-width: 100%;
     height: 300px;
     left:50%;
     top:50%;
