@@ -90,7 +90,7 @@ header {
 .content > section > b {
     display: none;
     position: absolute;
-    font-size: 0.3rem;
+    font-size: 20px;
     margin-left: 22%;
     top: 30%;
 }
@@ -125,7 +125,7 @@ header {
     display: none;
     color: blue;
     font-family: Rubik-Black;
-    font-size: 0.2rem;
+    font-size: 20px;
     z-index: 2;
     left: -1.2rem;
     top: 0.7rem;
@@ -213,7 +213,7 @@ header {
     position: absolute;
     left: 5%;
     top: 560px;
-    font-size: 0.5rem;
+    font-size: 30px;
 }
 
 .sectionRightDetail > div {
@@ -237,13 +237,13 @@ header {
     position: absolute;
     left: 15%;
     top: 650px;
-    font-size: 0.2rem;
+    font-size: 20px;
 }
 
 .sectionRight > b {
     position: absolute;
     font-family: Rubik-Black;
-    font-size: 0.3rem;
+    font-size: 5px;
     top: 480px;
     left: 40%;
 }
@@ -256,7 +256,7 @@ header {
 }
 
 .sectionRightTitle {
-    font-size: 0.2rem;
+    font-size: 50px;
     text-align: center;
     border-bottom: 2px solid black;
     margin-top: 0.2rem;
@@ -287,7 +287,7 @@ header {
 .sectionRightName {
     font-family: Rubik-Black;
     position: absolute;
-    font-size: 0.3rem;
+    font-size: 2px;
     top: 4.2rem;
     left: 5%;
     margin-left: 0.5rem;
