@@ -62,7 +62,7 @@
     <!-- Pagination_header -->
     <header>
         <img src="../../static/imgs/BACKGROUND.png" alt="图片加载失败" style="position:absolute;z-index:1">
-        <div class="headerBody" style="position:absolute;z-index:0;"><img src="../../static/imgs/cat.png" id="cat" alt="图片加载失败" style="height: auto;width:auto"></div>
+        <div class="headerBody" style="position:absolute;"><img src="../../static/imgs/cat.png" id="cat" alt="图片加载失败" style="height: auto;width:auto"></div>
     </header>
     <!-- Pagination_main -->
     <section>
@@ -84,7 +84,7 @@
 
 
             <div class="sectionRight" id="content" style="margin-left: 10rem;margin-top: 950px;">
-                <h1>Background</h1>
+                <h1 id="mainRtitle">Background</h1>
 
 
 <!-- 正文 -->
@@ -153,8 +153,9 @@
     }
 
     document.addEventListener('scroll', function () {
-        let dnaImg = document.getElementById("dnaImg")
-        let leftTitle = document.getElementById("leftTitle")
+        let mainRtitle = document.getElementById("mainRtitle")
+        /* let dnaImg = document.getElementById("dnaImg")
+        let leftTitle = document.getElementById("leftTitle") */
         let cat = document.getElementById("cat")
         let content = document.getElementById("content")
         let height = content.clientHeight
@@ -182,12 +183,14 @@
         }
         console.log(-topLength / height)
         if (window.pageYOffset > document.body.style.fontSize.replace("px", "") * 10) {
-            dnaImg.style.display = "block"
-            leftTitle.style.display = "block"
+            mainRtitle.style.display = "block"
+            /* dnaImg.style.display = "block"
+            leftTitle.style.display = "block" */
             cat.style.display = "none"
         } else {
-            dnaImg.style.display = "none"
-            leftTitle.style.display = "none"
+            mainRtitle.style.display = "block"
+            /* dnaImg.style.display = "none"
+            leftTitle.style.display = "none" */
             cat.style.display = "block"
         }
         console.log(window.pageYOffset)
