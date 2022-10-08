@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>result dry lab</title>
+    <link type="text/css" rel="stylesheet" href="../../static/css/font.css" charset="UTF-8"/>
+    <link type="text/css" rel="stylesheet" href="../../static/css/footer.css" charset="UTF-8"/>
+    <link type="text/css" rel="stylesheet" href="../../static/css/pagination.css" charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="../../static/css/navigation.css" charset="UTF-8"/>
+    <script type="text/javascript" src="../../static/js/main.js"></script>
+    <style type="text/css">
+        .sectionRight img {
+            transform: scale(0.8);
+        }
+    </style>
+</head>
+
+<body>
+<!-- navigation_part -->
+<a href="../../index.html" class="backtoindex"></div></a>
+<div id="cover" class="cover"></div>
+<div id="nav" class="nav"></div> 
+<div id="navbox" class="navbox">
+    <ul id="navul">
+        <li class="naval nav_firstclass" id="project" onmouseenter="show(this.id,true);"onmouseleave="show('project',false)">Project</li>
+        <li class="naval nav_firstclass" id="method" onmouseenter="show('method',true)" onmouseleave="show('method',false)"> Method</li>
+        <li class="naval nav_firstclass" id="result" onmouseenter="show('result',true)" onmouseleave="show('result',false)">Result</li>
+        <li class="naval nav_firstclass" id="safety" onmouseenter="show('safety',true)" onmouseleave="show('safety',false)">Safety</li>
+        <li class="naval nav_firstclass" id="team" onmouseenter="show('team',true)" onmouseleave="show('team',false)"> Team</li>
+        <li class="naval nav_firstclass" id="data" onmouseenter="show('data',true)" onmouseleave="show('data',false)">Data and Records</li>
+    </ul>
+    <div id="projectTag" class="Tag">
+        <li><a href=".background.html">Background</a></li>
+        <li><a href=".design.html">Design</a></li>
+        <li><a href="./description.html">Description</a></li>
+    </div>
+    <div id="methodTag" class="Tag">
+        <li><a href="./method_dry_lab.html">Dry Lab</a></li>
+        <li><a href="./method_wet_lab.html">Wet Lab</a></li>
+    </div>
+    <div id="resultTag" class="Tag">
+        <li><a href="./summary.html">Summary</a></li>
+        <li><a href="./result_dry_lab.html">Dry Lab</a></li>
+        <li><a href="./result_wet_lab.html">Wet Lab</a></li>
+    </div>
+    <div id="safetyTag" class="Tag">
+        <li><a href="./safety.html">Safety</a></li>
+    </div>
+    <div id="teamTag" class="Tag">
+        <li><a href="./members.html">Members</a></li>
+    </div>
+    <div id="dataTag" class="Tag">
+        <li><a href="./experiment_records.html">Experiment Records</a></li>
+        <li><a href="./data_and_computing_codes.html">Data and Computing Codes</a></li>
+        <li><a href="./data_accessibility_statements.html">Data Accessibility Statements</a></li>
+    </div>
+</div>
+<!-- main_part -->
+<div class="main">
+    <!-- Pagination_header -->
+    <header>
+        <img src="../../static/imgs/METHOD DRY LAB.png" alt="图片加载失败">
+        <div class="headerBody"><img src="../../static/imgs/cat.png" id="cat" alt="图片加载失败"></div>
+    </header>
+    <!-- Pagination_main -->
+    <section>
+        <div class="sectionBody">
+            <div class="sectionLeft" id="leftDNA" style="background-image: url(../../static/imgs/kuang_mid.png);">
+                <img src="../../static/imgs/DNA.png" id="dnaImg" alt="图片丢失">
+                <div class="" id="leftTitle">
+                    <!-- 左侧标题 -->
+                    <p id="title1" class="sidetitle" >Rational  design of the mutants</p><br><br>
+                    <p id="title2" class="sidetitle" >Molecular dynamics simulation</p><br>
+                    <p id="title3" class="sidetitle" >Enzyme kinetic analysis</p><br>
+                    <p id="title4" class="sidetitle" style="white-space: nowrap;"></p><br>
+                    <p id="title5" class="sidetitle" style="white-space: nowrap;"></p><br>
+                    <p id="title6" class="sidetitle" style="white-space: nowrap;"></p><br>
+                    <p id="title7" class="sidetitle" style="white-space: nowrap;"></p><br>
+                    <p id="title8" class="sidetitle" style="white-space: nowrap;"></p><br>
+                </div>
+            </div>
+            <div class="sectionRight" id="content">
+                <h1>Result Rry Lab</h1>
+
+<!-- 正文 -->
+<h2 id='rational-design-the-mutants'>Rational design the <strong>mutants</strong> </h2>
+<p class="paragraph">Results from Jennifer Doudna&#39;s group indicated that the α7 helix of the CasΦ protein has an important effect on enzymatic activity. From this, we modified the protein using a point mutation. The detailed mutation content is shown in Table 1. Mut-1 and Mut-2 are designed by Doudna’s group and used as positive controls. Mut-3 to Mut-6 are mutants designed by our team.</p>
+<p class="brat">                                                  Table <strong>1.</strong> Mutation sites of different mutants</p>
+<p ><img src="../../static/imgs/resuult_dry_lab/Picture1" referrerpolicy="no-referrer" alt="img"></p>
+<p>&nbsp;</p>
+<h2 id='molecular-dynamics-simulation-for-mutants'>Molecular dynamics simulation <strong>for</strong> mutants</h2>
+<p class="paragraph">We used the optimized system to carry out molecular dynamics simulation for the above mutants. According to the gmx rms module in the Gromacs package, we calculate the RMSD of different components in the simulation system. We analyzed the changes of six mutants in the system, and analyze the changes in the skeleton carbon atom of the protein and the central structure of the entire protein. </p>
+<p class="paragraph">The average structure after 400 ns of the simulation was extracted to check the RMSD and Rg of the simulated trajectory respectively. As shown in <strong>Figure 3</strong>, in the two mutant types of CasΦ (Mut-1 and Mut-4), the RMSD for the whole system is far away, with a large shift after 100 ns, after which it keeps converging. While the RMSD of the wild-type CasΦ and other mutants present the stability of about 0.32 nm after 150 ns, with less vibration of the system. This stability result may be related to the conformation changes induced by hydrogen bonds within the protein molecule.</p>
+<p>  <img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps5.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p>                         <strong>Figure3</strong>. Average RMSD value for wild-type CasΦ and mutants.</p>
+<p class="paragraph">As shown in the <strong>Figure 4</strong>, after 400 ns of folding, the molecular structure of the seven proteins has partially changed. After 350 ns, they begin to converge and maintain a relatively stable fluctuation range. Among them, the conformational changes of Mut-3 and Mut-4 after a period of equilibrium before 200 ns are small, the convergence degree is high, and the system stability is good. The wild-type protein has a large structural change at 60 and 150 ns, and the internal interaction force is unstable after three-dimensional folding. In the positive control group (Mut-1 and Mut-2), the basic fluctuation range was small after 100 ns, and some small fluctuations occurred at 3.66 nm. </p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps6.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p>                                              <strong>Figure</strong> <strong>4.</strong> Average Rg value for wild-type CasΦ and mutants.</p>
+<p class="paragraph">As shown in <strong>Figure</strong> <strong>5</strong>, in the simulated 400 ns, the energy fluctuation amplitude of the whole system is small, the wild-type protein (WT) is the lowest, and the structural stability is the best, followed by the stability of Mut-2 and Mut-3, and the energy of the whole system remains unchanged.</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps7.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p>                                      <strong>Figure</strong> <strong>5.</strong> Average Gromacs energies value for wild-type CasΦ and mutants.</p>
+<p class="paragraph">During the simulation process, the number of intramolecular hydrogen bonds in each group of proteins fluctuated to a certain extent, and changed at about 490. Among them, the vibration amplitude of Mut-4 and Mut-6 is smaller than that of other proteins, and the number of hydrogen bonds in the system has been maintained all the time, indicating that the intramolecular interaction is relatively stable, and it is easy to maintain a more rigid protein conformation. (<strong>Figure</strong> <strong>6</strong>)</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps8.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p>                       <strong>Figure</strong> <strong>6.</strong> Intramolecular hydrogen bonds value for wild-type CasΦ and mutants.</p>
+<p class="paragraph">During the simulation, the displacement range of each atom is small, and it is basically stable. In the Mut-3 and Mut-5 protein groups, the amino acids at 202-218 shifted by 1 nm, indicating that the intramolecular force has changed. The positive control group Mut-1 and Mut-2 basically maintained the displacement below 0.5 nm, and the atomic vibration amplitude was small, indicating that the system was stable. (<strong>Figure</strong> <strong>7</strong>)</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps9.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p>                                 <strong>Figure</strong> <strong>7.</strong> Average RMSF value for wild-type CasΦ and mutants.</p>
+<h2 id='enzyme-kinetic-analysis'>Enzyme kinetic analysis</h2>
+<p class="paragraph">In order to assess the trans cleavage activity of Cas12j mutants, wet experiments were performed using different mutants activated by target DNA for trans cleavage kinetics assays. Corresponding to the wet experiments, our dry experiments were performed by enzyme kinetic modeling to further evaluate the reaction rates of two mutants Mut-1 and Mut-4 with similar good cleavage activities.</p>
+<p class="paragraph">Based on the literature [1], we assumed that the trans cleavage process of Cas12j protein conforms to the Michaelis–Menten kinetics for enzyme kinetics.We treated the activated Cas12j-crRNA-activator complex as an enzyme and quantified the kinetic parameters for the wild type (WT) and two mutants (Mut-1,Mut-4).</p>
+<h3 id='reaction-mechanism'>Reaction mechanism</h3>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps10.png" referrerpolicy="no-referrer" alt="img"></p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps11.png" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">Simplified as the following reaction equation：</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps12.png" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">Where E is the target-activated Cas12j–crRNA complex, S is the uncleaved reporter, C is the reaction intermediate (enzyme–substrate reporter complex), P is the cleaved reporter molecules, kf and kr are the forward and reverse rate constant for the reaction between E and S, and kcat is the catalytic turnover rate of the enzyme.</p>
+<h2 id='the-reaction-rate-equation'>The reaction rate equation</h2>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps14.png" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">Where V is the rate of production of the cleaved reporters,Vmax is the highest measured reaction velocity for the experiment,KM is the Michaelis constant, [S] is the concentration of uncleared substrate at equilibrium.</p>
+<h3 id='data-fitting'>Data Fitting</h3>
+<h4 id='fluorescence-value-unit-conversion'>Fluorescence value unit conversion</h4>
+<p class="paragraph">To achieve comparability of data, we converted the fluorescence units (AU) measured to concentration units (nM) using the formula in the literature [2] for the calibration of fluorescence values to reporter gene concentrations.</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps15.png" referrerpolicy="no-referrer" alt="img"></p>
+<h4 id='fluorescence-signal-fitting'>Fluorescence signal fitting</h4>
+<p class="paragraph">Fitting the wet experimental data after concentration unit conversion, we obtained the changes in cleaved reporter concentrations for the three Cas12j over 60 min.</p>
+<p class="paragraph">① WT</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps16.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">② Mut-1</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps17.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">③ Mut-4</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps18.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<h4 id='fitting-of-enzyme-kinetic-equations'>Fitting of enzyme kinetic equations</h4>
+<p class="paragraph">According to the above fitted trend of the concentration of the cleaved reporter substrate, the production rate of the cleaved reporter substrate at the beginning of the reaction is basically linear. Combining with previous literature, we selected the data of the first two cycles (about 4 min) and the first three cycles (about 6 min) for the calculation of the initial rate. And then we fitted the initial velocities of the three Cas12j at the ssDNA reporter substrate concentration gradient by the Michaelis–Menten kinetics. The following are the fitting results.</p>
+<p class="paragraph">①WT for the first two cycles (WT-2)</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps19.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">②WT for the first three cycles (WT-3)</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps20.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">③Mut-1 for the first two cycles (Mut-1-2)</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps21.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">  ④Mut-1 for the first three cycles (Mut-1-3)</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps23.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">⑤Mut-4 for the first two cycles (Mut-4-2)</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps24.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">⑥Mut-4 for the first three cycles (Mut-4-3)</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps25.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">The results of fitting the above six sets of data are summarized as follows.<img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps26.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<h3 id='data-analysis'>Data analysis</h3>
+<h4 id='comparison-of-trans-cleavage-activity'>Comparison of trans-cleavage activity</h4>
+<p class="paragraph">From the catalytic efficiency (kcat/KM), we can obtain that both mutants have higher catalytic efficiency than the wild type, with Mut-1 having higher trans cleavage activity than Mut-4. However, since the Mut-4 fit did not converge, we can only speculate to obtain the latter conclusion for the mutant comparison.</p>
+<h4 id='comparison-with-literature-data-of-lbcas12a'>Comparison with literature data of LbCas12a</h4>
+<p class="paragraph">According to the literature [3], it is suggested by structural observations that Cas12a and Cas12j may use a similar mechanism for non-specific cleavage. Combined with the fact that Cas12j is smaller in volume than Cas12a. we hypothesized that in terms of trans cleavage activity: Cas12j ≤ Cas12a. Since there are few studies on Cas12j enzyme kinetics, we selected trans-cleavage activity data of Lbcas12a that have been more studied (from literature [1]) to compare with our data.</p>
+<p><img src="file:///C:\Users\admin\AppData\Local\Temp\ksohtml6432\wps27.jpg" referrerpolicy="no-referrer" alt="img"></p>
+<p class="paragraph">In comparison with the above data, the results showed that our Cas12j catalytic activity was higher than that of LbCas12a by kcat/KM values. And the kcat of our Cas12j was 2-3 orders of magnitude higher than that of LbCas12a (excluding Mut-4 mutants that were not fitted to convergence), while the KM values were 2-3 orders of magnitude lower than that of LbCas12a. This contradictory result with theory may be due to the influence of CRISPR enzyme type, crRNA sequence and target sequence. Further determination of the kinetic measurements of various target/guide RNAs would be more appropriate for comparison later.</p>
+<h4 id='reference'>Reference：</h4>
+<p class="reference">[1]Huyke, Diego A et al. “Enzyme Kinetics and Detector Sensitivity Determine Limits of Detection of Amplification-Free CRISPR-Cas12 and CRISPR-Cas13 Diagnostics.” <strong>Analytical chemistry</strong> vol. 94,27 (2022): 9826-9834. doi:10.1021/acs.analchem.2c01670</p>
+<p class="reference">[2] Ramachandran, Ashwin, and Juan G Santiago. “CRISPR Enzyme Kinetics for Molecular Diagnostics.” <strong>Analytical chemistry</strong> vol. 93,20 (2021): 7456-7464. doi:10.1021/acs.analchem.1c00525</p>
+<p class="reference">[3]Nguyen, Giang T et al. “Miniature CRISPR-Cas12 endonucleases - Programmed DNA targeting in a smaller package.” <strong>Current opinion in structural biology</strong>, vol. 77 102466. 25 Sep. 2022, doi:10.1016/j.sbi.2022.102466</p>
+<p>&nbsp;</p>
+
+
+            </div>
+        </div>
+    </section>
+</div>
+<!-- footer_part -->
+<footer class="footerbox">
+    <div class="thanksbox">
+        <img src="../../static/imgs/footerthanks.png" alt="" >
+        </div>
+    </div>
+    <div class="contactbox">
+        <div class="contacttext">Contact us</div>
+            <ul class="logo">
+                <li class="logobox footer_li">
+                    <a class="footer_a" href="mailto:cpuchina2022@163.com"><div class="logoall weibologo"></div></a>
+                    <a class="footer_a" href="mailto:cpuchina2022@163.com" style="margin-left: -120px;;">cpuchina2022@163.com</a>
+                </li>
+                <li class="logobox footer_li">
+                    <a class="footer_a" href="https://space.bilibili.com/1453586595"><div class="logoall bilibililogo"></div></a>
+                    <a class="footer_a" href="https://space.bilibili.com/1453586595" style="margin-left: -90px;">2022CPU_CHINA</a>
+                </li>
+                <li class="logobox footer_li">
+                    <a class="footer_a" href="https://github.igem.org/2022/cpu-china/"><div class="logoall githublogo"></div></a>
+                    <a class="footer_a" href="https://github.igem.org/2022/cpu-china/" style="margin-left: -100px;font-size: 18px;">Team&nbsp;wiki's&nbsp;repository</a>
+                </li>
+                <li class="logobox footer_li" style="margin-left: 175px;">
+                    <a class="footer_a" href="https://international.cpu.edu.cn/"><div class="logoall schoollogo"></div></a>
+                    <a class="footer_a" href="https://international.cpu.edu.cn/" style="margin-left: -110px;font-size:17px">International&nbsp;Communication</a>
+                </li>
+            </ul>
+    </div>
+    
+</footer>
+
+</body>
+
+<script type="text/javascript">
+    /* sidebar_js */
+    function setColor() {
+        let title1 = document.getElementById("title1")
+        let title2 = document.getElementById("title2")
+        let title3 = document.getElementById("title3")
+        let title4 = document.getElementById("title4")
+        let title5 = document.getElementById("title5")
+        let title6 = document.getElementById("title6")
+        let title7 = document.getElementById("title7")
+        let title8 = document.getElementById("title8")
+        title1.style.color = "#38393a"
+        title2.style.color = "#38393a"
+        title3.style.color = "#38393a"
+        title4.style.color = "#38393a"
+        title5.style.color = "#38393a"
+        title6.style.color = "#38393a"
+        title7.style.color = "#38393a"
+        title8.style.color = "#38393a"
+    }
+
+    document.addEventListener('scroll', function () {
+        let dnaImg = document.getElementById("dnaImg")
+        let leftTitle = document.getElementById("leftTitle")
+        let cat = document.getElementById("cat")
+        let content = document.getElementById("content")
+        let height = content.clientHeight
+        let topLength = content.getBoundingClientRect().top;
+        let flag = -topLength / height
+        if (flag < 0.26) {
+            setColor()
+            let title1 = document.getElementById("title1")
+            title1.style.color = "#115596"
+        }
+        if (flag > 0.26 && flag <= 0.46) {
+            setColor()
+            let title2 = document.getElementById("title2")
+            title2.style.color = "#115596"
+        }
+        if (flag > 0.46 && flag <= 0.69) {
+            setColor()
+            let title3 = document.getElementById("title3")
+            title3.style.color = "#115596"
+        }
+        if (flag > 0.69) {
+            setColor()
+            let title4 = document.getElementById("title4")
+            title4.style.color = "#115596"
+        }
+        console.log(-topLength / height)
+        if (window.pageYOffset > document.body.style.fontSize.replace("px", "") * 10) {
+            dnaImg.style.display = "block"
+            leftTitle.style.display = "block"
+            cat.style.display = "none"
+        } else {
+            dnaImg.style.display = "none"
+            leftTitle.style.display = "none"
+            cat.style.display = "block"
+        }
+        console.log(window.pageYOffset)
+        let font = document.body.style.fontSize;
+        console.log("fontSize" + font)
+        console.log(document.body.style.fontSize.replace("px", "") * 7)
+    })
+</script>
+<script>
+     // navigation_js
+     var nav = document.getElementById("nav");
+    var navbox = document.getElementById("navbox");
+    var navul = document.getElementById("navul");
+    var cover = document.getElementById("cover");
+    nav.onmouseenter = function () {
+        navbox.style.display = "block"
+        cover.style.display = "block"
+    }
+    navbox.onmouseleave = function () {
+        navbox.style.display = "none"
+        cover.style.display = "none"
+    }
+</script>
+</html>
